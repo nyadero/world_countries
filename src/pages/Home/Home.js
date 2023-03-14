@@ -24,7 +24,7 @@ export default function Home() {
     <div>
     {isLoading ? (
     <div className='loader'>
-        <Loading/>
+        <h3>Loading countries....</h3>
     </div>
    ): (
     <div>
