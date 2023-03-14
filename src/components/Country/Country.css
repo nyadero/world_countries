@@ -1,0 +1,35 @@
+.country{
+    min-height: 150px;
+    background-color: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 0.5rem;
+}
+.header{
+    display: flex;
+    align-items: center;
+   margin-bottom: 10px;
+}
+.img{
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    margin-right: 10px;
+}
+.name{
+    font-weight: 400;
+    margin-bottom: 5%;
+    font-size: 16px;
+}
+.continent{
+    background: #f7f9f6;
+    font-size: 14px;
+    font-weight: 300;
+    border-radius: 8px;
+    padding: 0.2rem 0.5rem;
+    width: -moz-fit-content;
+    width: fit-content;
+}
+h4{
+    font-weight: 400;
+}
