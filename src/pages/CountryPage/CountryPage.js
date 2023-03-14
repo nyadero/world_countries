@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react'
 import "./CountryPage.css"
 import {useParams} from "react-router-dom"
 import * as api from "../../api"
-import GoogleMapReact from "google-map-react"
 
 
 export default function CountryPage() {
@@ -24,7 +23,7 @@ export default function CountryPage() {
     }, [nameparam])
 
 
-    const {name, flags, area, capital, currencies, altSpellings, continent, region, borders, languages, population, maps, subregion, unMember } = country
+    const {name, flags, area, capital,  continent, region, borders, languages, population,  subregion } = country
 
 
     return (

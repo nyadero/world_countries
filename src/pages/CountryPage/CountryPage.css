@@ -4,11 +4,6 @@
     align-items: flex-start;
     justify-content: center;
 }
-.info_container{
-    /* display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px; */
-}
 .img_container{
     height: 300px;
     object-fit: cover;
